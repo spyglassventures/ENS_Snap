@@ -12,6 +12,8 @@ The project uses The Graph Explorer (via Subgrounds) to query ENS domains, inclu
 
 The script then creates the payload for a Push Channel and executes a Javascript file, so subscribed users get the information about the upcoming Snap (register the domain) in their inbox / phone notification.
 
+This benefits all ENS collectors that no longer have to check over and over again, if an ENS domain has been expended.
+
 
 ## Requirements
 
