@@ -68,6 +68,8 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 ![](img/TableDomains.png?raw=true)
 <sub>
 **Legend:**
+</sub>
+
 <sub> * _expiryDateHuman_: the current ENS expiry date in human readable format (identical to what users currently have their .cal reminders set to. This is the base for further calculations. </sub>
 
 <sub> * _EoGrace_: End of Grace periode, which is the ```expiryDateHuman* + 90 days```. This is the date people also have sometimes in their .cal reminders. It represents the time only the old holder can reregister the ENS domain. For all others, it's blocked to register the ENS during this time. </sub>
