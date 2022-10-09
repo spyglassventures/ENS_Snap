@@ -1,35 +1,39 @@
-# My Devcon VI App
+# Snap ENS - Devcon VI Project Suhmission
 
-Here we will describe the content of what we a progamming. 
-[now on feature branch]
+Are you tired of having dozens of useless ENS reminders in your Calander? 
+Don't waste more time and use this Python Script to query ENS Data via The Graph
+and create your own Push Channel to get notifications for ONLY those ENS domains which 
+are no longer in the grace period / no more premium.  
 
-## Installation
+Get an alert to your push inbox.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
+## Requirements
+
+Push Channel (in Demo, we use the SDK)
+Python 3.10
+Wallet / 50 Dai - Faucet / Access to Goeli Network
+
+
+## Preparation
 ```bash
-pip install foobar
+conda create --name Devcon_py310 python=3.10
+pip install jupyter ipykernel
+python -m ipykernel install --user --name Devcon_py310
+Jupiter notebook
 ```
 
-## Usage
+## Usage and required libraries
 
 ```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+from subgrounds.subgrounds import Subgrounds
+import pandas as pd
+from datetime import date
+import numpy as np
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Thank you also to ETH Gloabl Mentors and the Sponsors.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
