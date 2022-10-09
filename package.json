@@ -1,0 +1,15 @@
+{
+  "name": "sdk-quickstart",
+  "type": "module",
+    "version": "1.0.0",
+  "description": "Daniels test",
+  "main": "index.js",
+  "repository": "none",
+  "author": "Daniel",
+  "license": "open",
+  "private": false,
+  "dependencies": {
+    "@pushprotocol/restapi": "^0.1.1",
+    "ethers": "^5.7.1"
+  }
+}
