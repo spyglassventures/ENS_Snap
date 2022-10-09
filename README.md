@@ -48,19 +48,6 @@ Visit https://staging.push.org/#/inbox or use the iOS App to receive Notificatio
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Thank you also to ETH Gloabl Mentors and the Sponsors.
 
-## Limitations
-- lots of user unfriendly requirements (SDK, ...)
-- we query all the ENS Domains of a holder.
-- data heavy on The Graph, can be improved
-- Premium period set is 20, in demo it is set to 5 for better illustration
-- has to run every day
-
-## Plannend Work
-- Ability to add Channel automatically, add users, and holders
-- Limit NFS Names (maybe include regex fearch)
-- include variable premium time
-- should be depoyed on a server
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
@@ -73,3 +60,16 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 ## Solution: Notification
 ![](img/Phone.PNG?raw=true)
 
+## Limitations
+- lots of user unfriendly requirements (SDK, ...)
+- we query all the ENS Domains of a holder.
+- data heavy on The Graph, can be improved
+- Premium period set is 20, in demo it is set to 5 for better illustration
+- has to run every day
+
+## Future Work
+- Ability to add Channel automatically, add users, and holders
+- Limit NFS Names (maybe include regex fearch)
+- include variable premium time
+- should be depoyed on a server
+- Testing
