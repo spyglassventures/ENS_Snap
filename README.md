@@ -1,4 +1,4 @@
-![](img/Logo_ENS_Snap small.PNG?raw=true)
+![](img/Logo_ENS_Snap%20small.png?raw=true)
 
 # Snap ENS - Devcon VI Project Submission
 
