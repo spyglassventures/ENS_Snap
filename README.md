@@ -76,7 +76,7 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 
 <sub> * _EoGracePremium_: This is the ```*EoGrace* date plus n days``` (min 0, max 21 days). For the sake of the demo, we set it to ```n=5 days```. In real life, we suggest to set it to ```n=20 days```, to only receive notifications, when the domain will be available for registration without premium the next day. This can user specific. </sub>
 
-<sub> * _Trigger_Push_: Logic wheather to fire the push trigger or not. It compares the current date with the End of the grace period. Logic is: ```if Currente date > EoGracePremium, then set trigger```
+<sub> * _Trigger_Push_: Logic whether to fire the push trigger or not. It compares the current date with the End of the grace period. Logic is: ```if Currente date > EoGracePremium, then set trigger```
 </sub>
 
 ## Solution: Notification
