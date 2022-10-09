@@ -39,7 +39,12 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Illustrations
+## Problem
 ![](img/Problem.png?raw=true)
-![](img/TableDomainspng?raw=true)
+
+## Solution: Data
+![](img/TableDomains.png?raw=true)
+
+## Solution: Notification
+![](img/Phone.png?raw=true)
 
