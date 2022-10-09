@@ -74,7 +74,7 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 
 <sub> * _EoGrace_: End of Grace periode, which is the ```expiryDateHuman* + 90 days```. This is the date people also have sometimes in their .cal reminders. It represents the time only the old holder can reregister the ENS domain. For all others, it's blocked to register the ENS during this time. </sub>
 
-<sub> * _EoGracePremium_: This is the ```*EoGrace* date plus n days``` (min 0, max 21 days). For the sake of the demo, we set it to ```n=5 days```. In real life, we suggest to set it to ```n=20 days```, to only receive notifications, when the domain will be available for registration without premium the next day. This can user specific. </sub>
+<sub> * _EoGracePremium_: This is the ```EoGrace date + n days``` (min 0, max 21 days). For the sake of the demo, we set it to ```n=5 days```. In real life, we suggest to set it to ```n=20 days```, to only receive notifications, when the domain will be available for registration without premium the next day. This can user specific. </sub>
 
 <sub> * _Trigger_Push_: Logic whether to fire the push trigger or not. It compares the current date with the End of the grace period. Logic is: ```if Currente date > EoGracePremium, then set trigger```
 </sub>
