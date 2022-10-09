@@ -7,6 +7,11 @@ are no longer in the grace period / no more premium.
 
 Get an alert to your push inbox.
 
+## How its made
+The project uses The Graph Explorer (via Subgrounds) to query ENS domains, including their expiry date. A python script calculates the expected date, when the grace period is over and the date, when premium is zero. 
+
+The script then creates the payload for a Push Channel and executes a Javascript file, so subscribed users get the information about the upcoming Snap (register the domain) in their inbox / phone notification.
+
 
 ## Requirements
 
