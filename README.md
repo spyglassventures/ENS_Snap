@@ -54,7 +54,7 @@ Then run Python Notebook, which will create the payload and fire the trigger to 
 Visit https://staging.push.org/#/inbox or use the iOS App to receive Notifications. Enable "Notification" for best use.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+This code was created during <48 hours without prior knewldge in Graph or Push syntax. Many small things can be imroved. A pure Java Script implementation would also be quite usefull. Pull requests are therefore welcome. For major changes, please open an issue first to discuss what you would like to change.
 Thank you also to ETH Gloabl Mentors and the Sponsors.
 
 ## License
@@ -65,11 +65,13 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 
 ## Solution: Data
 ![](img/TableDomains.png?raw=true)
-Legend:
-* expiryDateHuman: the current ENS expiry date in human readable format (identical to what users currently have their .cal reminders set to
-* EoGrace: End of Grace periode, which is the *expiryDateHuman* + 90 days. This is the date people also have sometimes in their .cal reminders. It represents the time only the old holder can reregister the ENS domain. For all others, it's blocked.
-* EoGracePremium: This is the *EoGrace* date plus n days (min 0, max 21 days). For the sake of the demo, we set it to n=5 days. In real life, we suggest to set it to 20 days, to only receive notifications, when the domain will be available for registration without premium the next day. This can user specific.
-* Trigger_Push: Logic wheather to fire the push trigger or not.
+<sub>
+**Legend:**
+* _expiryDateHuman_: the current ENS expiry date in human readable format (identical to what users currently have their .cal reminders set to. This is the base for further calculations.
+* _EoGrace_: End of Grace periode, which is the ```expiryDateHuman* + 90 days```. This is the date people also have sometimes in their .cal reminders. It represents the time only the old holder can reregister the ENS domain. For all others, it's blocked to register the ENS during this time.
+* _EoGracePremium_: This is the ```*EoGrace* date plus n days``` (min 0, max 21 days). For the sake of the demo, we set it to ```n=5 days```. In real life, we suggest to set it to ```n=20 days```, to only receive notifications, when the domain will be available for registration without premium the next day. This can user specific.
+* _Trigger_Push_: Logic wheather to fire the push trigger or not. It compares the current date with the End of the grace period. ```if Currente date > EoGracePremium, then set trigger```
+</sub>
 
 ## Solution: Notification
 ![](img/Phone.PNG?raw=true)
