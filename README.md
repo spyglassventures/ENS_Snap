@@ -65,9 +65,15 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 
 ## Solution: Data
 ![](img/TableDomains.png?raw=true)
+Legend:
+* expiryDateHuman: the current ENS expiry date in human readable format (identical to what users currently have their .cal reminders set to
+* EoGrace: End of Grace periode, which is the *expiryDateHuman* + 90 days. This is the date people also have sometimes in their .cal reminders. It represents the time only the old holder can reregister the ENS domain. For all others, it's blocked.
+* EoGracePremium: This is the *EoGrace* date plus n days (min 0, max 21 days). For the sake of the demo, we set it to n=5 days. In real life, we suggest to set it to 20 days, to only receive notifications, when the domain will be available for registration without premium the next day. This can user specific.
+* Trigger_Push: Logic wheather to fire the push trigger or not.
 
 ## Solution: Notification
 ![](img/Phone.PNG?raw=true)
+(Browser based version also available, and Browser Plugin) 
 
 ## Limitations
 - lots of user unfriendly requirements (SDK, ...)
