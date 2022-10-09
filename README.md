@@ -1,4 +1,4 @@
-# Snap ENS - Devcon VI Project Suhmission
+# Snap ENS - Devcon VI Project Submission
 
 Are you tired of having dozens of useless ENS reminders in your Calander? 
 Don't waste more time and use this Python Script to query ENS Data via The Graph
