@@ -15,13 +15,22 @@ Python 3.10
 Wallet / 50 Dai - Faucet / Access to Goeli Network
 
 
-## Preparation
+## Preparation for Python Notebook
 ```bash
 - conda create --name Devcon_py310 python=3.10
 - pip install jupyter ipykernel
 - python -m ipykernel install --user --name Devcon_py310
 - Jupiter notebook
 ```
+
+## Preparation to install Push SDK
+```bash
+follow https://docs.epns.io/developers/developer-tooling/epns-sdk/epns-sdk-starter-kit
+```
+
+## Create Push Channel
+Visit https://app.push.org/#/channels
+Docs https://docs.epns.io/developers/developer-guides/create-your-notif-channel
 
 ## Usage and required libraries
 
@@ -31,6 +40,9 @@ import pandas as pd
 from datetime import date
 import numpy as np
 ```
+
+Then run Python Notebook, which will create the payload and fire the trigger to Push.
+Visit https://staging.push.org/#/inbox or use the iOS App to receive Notifications. Enable "Notification" for best use.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
