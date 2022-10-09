@@ -1,3 +1,5 @@
+![](img/Logo_ENS_Snap small.PNG?raw=true)
+
 # Snap ENS - Devcon VI Project Submission
 
 Are you tired of having dozens of useless ENS reminders in your Calander? 
