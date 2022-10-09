@@ -29,8 +29,8 @@ follow https://docs.epns.io/developers/developer-tooling/epns-sdk/epns-sdk-start
 ```
 
 ## Create Push Channel
-Visit https://app.push.org/#/channels
-Docs https://docs.epns.io/developers/developer-guides/create-your-notif-channel
+* Visit https://app.push.org/#/channels
+* Docs https://docs.epns.io/developers/developer-guides/create-your-notif-channel
 
 ## Usage and required libraries
 
