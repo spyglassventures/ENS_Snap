@@ -17,10 +17,10 @@ Wallet / 50 Dai - Faucet / Access to Goeli Network
 
 ## Preparation
 ```bash
-conda create --name Devcon_py310 python=3.10
-pip install jupyter ipykernel
-python -m ipykernel install --user --name Devcon_py310
-Jupiter notebook
+- conda create --name Devcon_py310 python=3.10
+- pip install jupyter ipykernel
+- python -m ipykernel install --user --name Devcon_py310
+- Jupiter notebook
 ```
 
 ## Usage and required libraries
@@ -37,3 +37,8 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Illustrations
+![](img/Problem.png?raw=true)
+![](img/TableDomainspng?raw=true)
+
