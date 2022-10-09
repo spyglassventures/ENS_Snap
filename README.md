@@ -62,20 +62,21 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 
 ## Problem
 ![](img/Problem.png?raw=true)
+<sub>People have many .cal reminders set. When they check, they mostly find that the ENS domain of desire has been expandet and they have to set another reminder so come back later. Even if the domain has expired, they still need to set anothr reminder for the end of the grace period and additionally decide how long they have to wait for the premium to go down (set another .cal reminder). This is a waste of time and can be auotmated to only receive a one notification, when its time to register without or with low premium.</sub>
 
 ## Solution: Data
 ![](img/TableDomains.png?raw=true)
 <sub>
 **Legend:**
-* _expiryDateHuman_: the current ENS expiry date in human readable format (identical to what users currently have their .cal reminders set to. This is the base for further calculations.
-* _EoGrace_: End of Grace periode, which is the ```expiryDateHuman* + 90 days```. This is the date people also have sometimes in their .cal reminders. It represents the time only the old holder can reregister the ENS domain. For all others, it's blocked to register the ENS during this time.
-* _EoGracePremium_: This is the ```*EoGrace* date plus n days``` (min 0, max 21 days). For the sake of the demo, we set it to ```n=5 days```. In real life, we suggest to set it to ```n=20 days```, to only receive notifications, when the domain will be available for registration without premium the next day. This can user specific.
-* _Trigger_Push_: Logic wheather to fire the push trigger or not. It compares the current date with the End of the grace period. ```if Currente date > EoGracePremium, then set trigger```
+<sub> * _expiryDateHuman_: the current ENS expiry date in human readable format (identical to what users currently have their .cal reminders set to. This is the base for further calculations. </sub>
+<sub> * _EoGrace_: End of Grace periode, which is the ```expiryDateHuman* + 90 days```. This is the date people also have sometimes in their .cal reminders. It represents the time only the old holder can reregister the ENS domain. For all others, it's blocked to register the ENS during this time. </sub>
+<sub> * _EoGracePremium_: This is the ```*EoGrace* date plus n days``` (min 0, max 21 days). For the sake of the demo, we set it to ```n=5 days```. In real life, we suggest to set it to ```n=20 days```, to only receive notifications, when the domain will be available for registration without premium the next day. This can user specific. </sub>
+<sub> * _Trigger_Push_: Logic wheather to fire the push trigger or not. It compares the current date with the End of the grace period. Logic is: ```if Currente date > EoGracePremium, then set trigger```
 </sub>
 
 ## Solution: Notification
 ![](img/Phone.PNG?raw=true)
-(Browser based version also available, and Browser Plugin) 
+<sub>Browser based version also available, and Browser Plugin.</sub>
 
 ## Limitations
 - lots of user unfriendly requirements (SDK, ...)
