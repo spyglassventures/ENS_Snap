@@ -46,5 +46,5 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 ![](img/TableDomains.png?raw=true)
 
 ## Solution: Notification
-![](img/Phone.png?raw=true)
+![](img/Phone.PNG?raw=true)
 
