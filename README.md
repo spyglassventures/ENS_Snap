@@ -2,7 +2,7 @@
 
 # ENS SNAP - Devcon VI Project Submission
 
-Are you tired of having dozens of useless ENS reminders in your Calander? 
+Are you tired of having dozens of useless ENS reminders in your calendar? 
 Don't waste more time and use this Python Script to query ENS Data via The Graph
 and create your own Push Channel to get notifications for ONLY those ENS domains which 
 are no longer in the grace period / no more premium.  
