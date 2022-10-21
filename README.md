@@ -100,8 +100,8 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 
 ## Awards
 Congratulations on winning multiple prizes at ETHBogotá 2022. To recap, you won:
-🥈 ENS — Best Use
-🏊‍♂️ ENS — Pool Prize
-✨ Push Protocol — Runner Up
-🕸 The Graph — 🥈 Best Use of Existing Subgraph
+- 🥈 ENS — Best Use
+- 🏊‍♂️ ENS — Pool Prize
+- ✨ Push Protocol — Runner Up
+- 🕸 The Graph — 🥈 Best Use of Existing Subgraph
 
