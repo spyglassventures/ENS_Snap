@@ -96,3 +96,12 @@ Thank you also to ETH Gloabl Mentors and the Sponsors.
 - include variable premium time
 - should be depoyed on a server
 - Testing
+
+
+## Awards
+Congratulations on winning multiple prizes at ETHBogotá 2022. To recap, you won:
+🥈 ENS — Best Use
+🏊‍♂️ ENS — Pool Prize
+✨ Push Protocol — Runner Up
+🕸 The Graph — 🥈 Best Use of Existing Subgraph
+
